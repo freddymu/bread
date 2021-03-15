@@ -22,6 +22,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -31,11 +33,28 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615794863411</updated>
-      <workItem from="1615794864624" duration="302000" />
+      <workItem from="1615794864624" duration="759000" />
     </task>
     <servers />
   </component>
+  <component name="TerminalProjectNonSharedOptionsProvider">
+    <option name="shellPath" value="C:\Program Files\Git\bin\bash.exe" />
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="739" y="261" key="FileChooserDialogImpl" timestamp="1615795300211">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="261" key="FileChooserDialogImpl/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1615795300211" />
+    <state x="483" y="165" key="SettingsEditor" timestamp="1615795300799">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="483" y="165" key="SettingsEditor/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1615795300799" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1615795619745">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1615795619745" />
   </component>
 </project>
