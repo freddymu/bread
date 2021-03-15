@@ -1,0 +1,54 @@
+{
+    "name": "freddymu/bread",
+    "description": "Baking a delicious BREAD to make your day",
+    "keywords": [
+        "freddymu",
+        "bread"
+    ],
+    "homepage": "https://github.com/freddymu/bread",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Freddy Munandar",
+            "email": "fredhopelane@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "^6.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Freddymu\\Bread\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Freddymu\\Bread\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Freddymu\\Bread\\BreadServiceProvider"
+            ],
+            "aliases": {
+                "Bread": "Freddymu\\Bread\\BreadFacade"
+            }
+        }
+    }
+}
